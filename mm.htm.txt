@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAM Team Games Development</title>
+    <link rel="icon" href="godot.jpg">
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ffffff;
+            padding: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+        nav li {
+            margin: 0 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffeb3b;
+        }
+        section {
+            padding: 20px;
+            text-align: left;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            flex: 1;
+        }
+        section h2 {
+            border-bottom: 2px solid #43a047;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        section p, section ul, section ol {
+            margin: 15px 0;
+        }
+        section ul {
+            padding-left: 20px;
+        }
+        section ul li, section ol li {
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #34495e;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#getting_started">بداية الرحلة</a></li>
+                <li><a href="#requirements">الاحتياجات لتطوير الألعاب</a></li>
+                <li><a href="#excitement_intro">مقدمة حماسية</a></li>
+                <li><a href="#basic_game_example">مثال عملي</a></li>
+                <!-- يمكنك إضافة المزيد من الروابط هنا -->
+            </ul>
+        </nav>
+        <h1>TAM Team</h1>
+    </header>
+
+    <section id="getting_started">
+        <h2>كيفية تحميل محرك جودوت 4</h2>
+        <p>لتحميل محرك جودوت 4 على الجوال أو الكمبيوتر، يرجى اتباع الخطوات التالية:</p>
+        <hr>
+        <h3>للجوال:</h3>
+        <ol>
+            <li>قم بفتح متجر التطبيقات على جهازك.</li>
+            <li>ابحث عن "Godot Engine" في متجر التطبيقات.</li>
+            <li>انقر على زر التحميل وانتظر حتى يكتمل التثبيت. و يمكنك تحميلة من <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://play.google.com/store/apps/details%3Fid%3Dorg.godotengine.editor.v4%26hl%3Den_US%26referrer%3Dutm_source%253Dgoogle%2526utm_medium%253Dorganic%2526utm_term%253Dgodot%2Bapk%26pcampaignid%3DAPPU_1_33CdZqzRO_-dkdUPtNa6kAo&ved=2ahUKEwjsvNbc_biHAxX_TqQEHTSrDqIQ5YQBegQIFRAC&usg=AOvVaw2Swtgupf2xUhqfVJxqJmyN">هنا</a></li>
+        </ol>
+        <hr>
+        <h3>للكمبيوتر:</h3>
+        <ol>
+            <li>زرع المتصفح الخاص بك وانتقل إلى الموقع الرسمي لجودوت 4: <a href="https://godotengine.org/" target="_blank">godotengine.org</a></li>
+            <li>انقر على رابط "Download" في القائمة العلوية.</li>
+            <li>اختر الإصدار الذي يتناسب مع نظام التشغيل الخاص بك وابدأ في تحميله.</li>
+            <li>بعد التحميل، قم بفتح الملف المحمل واتبع التعليمات لإكمال عملية التثبيت.</li>
+        </ol>
+    </section>
+    <hr>
+    <section id="requirements">
+        <h2>الاحتياجات لتطوير الألعاب</h2>
+        <p>لتطوير الألعاب بشكل فعّال، يجب أن تتوفر على الأقل على الأشياء التالية:</p>
+        <ul>
+            <li>فهم أساسيات لغة البرمجة <br>(مثل C# أو GDScript أو C++).</li>
+            <li>معرفة أساسية بتصميم اللعبة والرسومات.</li>
+            <li>تحميل وتثبيت محرك اللعبة الذي تريد استخدامه.</li>
+            <li>الوصول إلى موارد تعليمية عبر الإنترنت ومجتمع تطوير الألعاب.</li>
+            <li>التفرغ للتعلم والتطبيق العملي.</li>
+            <li>تأكد من الرسومات المستخدمة في تطوير لعبتك الخاصة.</li>
+        </ul>
+        <p>تأكد من متابعة دورات تعلم تطوير الألعاب والمشاركة في المجتمع لتحسين مهاراتك.</p>
+    </section>
+    <hr>
+    <section id="excitement_intro">
+        <h2>مقدمة للبدء</h2>
+        <p>مرحبًا بك في عالم تطوير الألعاب، حيث تجتمع الإبداع والتحدي لخلق عوالم رائعة وتجارب فريدة. هنا في فريق TAM، ندعوك للانضمام إلى رحلة مليئة بالإلهام والتعلم.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 TAM Team. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
